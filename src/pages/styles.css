@@ -50,15 +50,14 @@ body, html {
 
  .Projectscontainer{
    background-color: white;
-    text-align: center;
-    margin: 10% ;
+    margin: 15% ;
     margin-top: 50px;
  }
 
  .card{
     margin: 20 0px;
     margin-bottom: 30px;
-    height: 50vh;
+    height: 35vh;
     width: 50vh;
  }
  .project-description{
