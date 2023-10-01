@@ -1,14 +1,18 @@
+
 body, html {
     font-family: 'Montserrat', sans-serif;
-    background-color: #408E91;
+    background-color: black;
     
 
+  }
+  .App{
+   background-color: black;
   }
   .background-picture {
     margin-top: 0px;
     height: 100vh;
     width: auto;
-    background-color: #408E91;
+    background-color:black;
     
 }
 
@@ -33,7 +37,7 @@ body, html {
     
 }
 .navbar{
-    background-color: #408E91; ;
+    background-color:black; ;
 }
  .navbar-brand{
     margin-right: 60%;
@@ -49,7 +53,6 @@ body, html {
  }
 
  .Projectscontainer{
-   background-color: white;
     margin: 15% ;
     margin-top: 50px;
  }
@@ -82,9 +85,10 @@ body, html {
  }
 
  .contactPage{
-   background-color:  #408E91 ;
+   background-color:  black ;
    margin-top: 10%;
    padding: 1.5% 30%;
+
  }
  .hireMe{
    text-align: center;

@@ -13,9 +13,11 @@ const Home = () => {
         <Row className="px-4">
           <Col sm={6} className="hellotxt">
             {" "}
-            <p>Hello, I'm Steve Baron. </p>{" "}
+            <p style={{ color: "white" }}>Hello, I'm Steve Baron. </p>{" "}
             <h1>
-              <em>You're next full-stack developer.</em>
+              <em style={{ color: "white" }}>
+                You're next full-stack developer.
+              </em>
             </h1>
           </Col>
           <Col sm={6} className="helloimage">
