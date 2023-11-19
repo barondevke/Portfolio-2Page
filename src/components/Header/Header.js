@@ -27,7 +27,7 @@ const Header = () => {
 
                 <Nav.Link
                   onClick={() =>
-                    scroller.scrollTo("Projectscontainer", {
+                    scroller.scrollTo("Projects", {
                       smooth: true,
                       offset: -20,
                       duration: 100,

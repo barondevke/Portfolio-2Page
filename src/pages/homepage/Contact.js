@@ -2,6 +2,10 @@ import { useState } from "react";
 import React from "react";
 import { Form, Button } from "react-bootstrap";
 import "../../pages/styles.css";
+import {Row,Col} from "react-bootstrap";
+import { faPhone,faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Contact = () => {
   const onSubmit = (e) => {
@@ -9,41 +13,28 @@ const Contact = () => {
   };
 
   return (
-    <div className="contactPage">
+    <div className="contactPage mt-32">
       <h1 style={{ color: "white" }} className="hireMe">
         Contact Me
       </h1>
-      <Form onSubmit={onSubmit}>
-        <Form.Group className="mb-3" controlId="formBasicText">
-          <Form.Label htmlFor="name">Name</Form.Label>
-          <Form.Control
-            type="text"
-            className="textBox"
-            placeholder="Enter name"
-          />
-          <Form.Text className="text-muted"></Form.Text>
-        </Form.Group>
+      <Row>
+      <Col>
+          <div style={{display:'flex',flexDirection:'row'}}>
+          <FontAwesomeIcon icon={faPhone} style={{color: "white",margin:'5% 5%'}} size='2x' /><h4 style={{margin:'5% 0',color:"white"}}>0797703639</h4>
+          </div>
+          </Col>
+      </Row>    
+          <Row>
+          <Col>
+          <div style={{display:'flex',flexDirection:'row'}}>
+          <FontAwesomeIcon icon={faEnvelope} style={{color: "white", margin:'5% 5%'}} size='2x' /><h4 style={{margin:'5% 0',color:"white"}} >ndabasteve1@gmail.com</h4>
+          </div>
+          </Col>
 
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label htmlFor="email">Email address</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
-          <Form.Text className="text-muted"></Form.Text>
-        </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicText">
-          <Form.Label htmlFor="message">Message</Form.Label>
-          <Form.Control
-            type="text"
-            className="messageBox"
-            placeholder="Enter message"
-          />
-          <Form.Text className="text-muted"></Form.Text>
-        </Form.Group>
 
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
-      </Form>
+      </Row>
+      
     </div>
   );
 };

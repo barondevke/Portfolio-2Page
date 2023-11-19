@@ -20,9 +20,7 @@ const Home = () => {
               </em>
             </h1>
           </Col>
-          <Col sm={6} className="helloimage">
-            <div className="helloimage"></div>
-          </Col>
+          
         </Row>
       </div>
     </div>

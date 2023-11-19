@@ -6,16 +6,16 @@ import "../../pages/styles.css";
 
 const Projects = () => {
   return (
-    <section class="mb-32 text-center lg:text-left ">
+    <section class="mb-32 text-center lg:text-left  Projects  ">
       <h2
         style={{ color: "white" }}
-        class="mb-12 text-center text-3xl font-bold"
+        class="mb-32 pt-20 text-center text-2xl font-bold"
       >
         My Projects
       </h2>
 
-      <div class="grid gap-x-6 lg:grid-cols-3 px-40 ">
-        <div class="mb-12 lg:mb-0">
+      <div class="grid gap-x-6 lg:grid-cols-3  ">
+        <div class="mb-12 lg:mb-0 projectImg">
           <div
             class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%]"
             data-te-ripple-init
@@ -23,7 +23,7 @@ const Projects = () => {
           >
             <img
               src={require("./img/Screenshot 2023-09-29 105845.png")}
-              class="w-full"
+              class="w-full "
             />
             <a href="https://eurekahealthsolutions.netlify.app/">
               <div class="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
@@ -59,13 +59,13 @@ const Projects = () => {
           </p>
         </div>
 
-        <div class="mb-12 lg:mb-0">
+        <div class="mb-12 lg:mb-0 projectImg">
           <div
             class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%]"
             data-te-ripple-init
             data-te-ripple-color="light"
           >
-            <img src={require("./img/Screenshot (32).png")} class="w-full" />
+            <img src={require("./img/Screenshot (32).png")} class="w-full " />
             <a href="#!">
               <div class="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
             </a>
@@ -109,15 +109,15 @@ const Projects = () => {
           </p>
         </div>
 
-        <div class="mb-0">
+        <div class="mb-12 lg:mb-0 projectImg">
           <div
             class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%]"
             data-te-ripple-init
             data-te-ripple-color="light"
           >
            
-           <img src={require("./img/Screenshot (1).png")} class="w-full" />
-            <a href="#!">
+           <img src={require("./img/woodberg.png")} class="w-full " />
+            <a href="https://woodbergfurnituresltd.com/">
               <div class="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
             </a>
           </div>
@@ -126,7 +126,7 @@ const Projects = () => {
             style={{ color: "white", fontSize: "2rem" }}
             class="mb-4 text-lg font-bold"
           >
-            Nutrition Project
+            Woodberg Furniture
           </h5>
           <div class="mb-4 flex items-center justify-center text-sm font-medium text-primary dark:text-primary-400 lg:justify-center">
             
@@ -155,9 +155,9 @@ const Projects = () => {
             ></img>
           </div>
           <p class="text-neutral-500 dark:text-neutral-300 text-sm">
-            This website allows users to create personalized diets based on their disease.
-            It also allows users to purchase organic food for their specific diets.
-          </p>
+          Woodberg Furniture is a premier furniture selling company that exudes timeless craftsmanship, elegance, and functionality. Specializing in creating pieces that seamlessly blend traditional charm with modern aesthetics, Woodberg Furniture is dedicated to providing high-quality, handcrafted furniture that 
+          transforms living spaces into expressions of personal style.
+            </p>
         </div>
       </div>
     </section>
