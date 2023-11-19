@@ -2,7 +2,7 @@
   "name": "embuzi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://barondevke.github.io/Portfolio-2Page",
+  "homepage": "https://barondevke.github.io/Portfolio-2Page/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
