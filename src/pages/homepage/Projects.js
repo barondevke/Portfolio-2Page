@@ -65,7 +65,7 @@ const Projects = () => {
             data-te-ripple-init
             data-te-ripple-color="light"
           >
-            <img src={require("./img/Screenshot (32).png")} class="w-full " />
+            <img src={require("./img/trispectra.png")} class="w-full " />
             <a href="#!">
               <div class="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
             </a>
@@ -75,7 +75,7 @@ const Projects = () => {
             style={{ color: "white", fontSize: "2rem" }}
             class="mb-4 text-lg font-bold"
           >
-            AdInfinite website
+            TriSpectra
           </h5>
           <div class="mb-4 flex items-center justify-center text-sm font-medium text-primary dark:text-primary-400 lg:justify-center">
             <img
@@ -103,9 +103,8 @@ const Projects = () => {
             ></img>
           </div>
           <p class="text-neutral-500 dark:text-neutral-300 text-sm">
-            This website is built for startup AdInfinite. It allows users to
-            create, add, and search for the latest ads and services in their
-            area.
+            This website is built for TriSpectra.TriSpectra is the partner of choice for many of the world's leading enterprises, SMEs and technology challengers. We help businesses elevate their value 
+            through custom software development, product design, QA and consultancy services.
           </p>
         </div>
 
