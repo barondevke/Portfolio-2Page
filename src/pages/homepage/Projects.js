@@ -66,7 +66,7 @@ const Projects = () => {
             data-te-ripple-color="light"
           >
             <img src={require("./img/trispectra.png")} class="w-full " />
-            <a href="#!">
+            <a href="https://trispectratx-tech.com/">
               <div class="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
             </a>
           </div>
