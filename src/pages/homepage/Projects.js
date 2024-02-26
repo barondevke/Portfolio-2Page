@@ -49,6 +49,13 @@ const Projects = () => {
                 textAlign: "center",
                 width: "2.5rem",
               }}
+              src={require("./img/nodejs.png")}
+            ></img>
+            <img
+              style={{
+                textAlign: "center",
+                width: "2.5rem",
+              }}
               src={require("./img/bootstrap.png")}
             ></img>
           </div>
