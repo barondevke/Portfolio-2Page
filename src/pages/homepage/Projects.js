@@ -22,10 +22,10 @@ const Projects = () => {
             data-te-ripple-color="light"
           >
             <img
-              src={require("./img/Screenshot 2023-09-29 105845.png")}
+              src={require("./img/vov.png")}
               class="w-full "
             />
-            <a href="https://eurekahealthsolutions.netlify.app/">
+            <a href="https://vofthevoiceless.com/">
               <div class="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
             </a>
           </div>
@@ -33,7 +33,7 @@ const Projects = () => {
             style={{ color: "white", fontSize: "2rem" }}
             class="mb-4 text-lg font-bold"
           >
-            Eureka Health Solutions
+            Voice of the Voiceless
           </h5>
           <div class="mb-4 flex items-center justify-center text-sm font-medium text-primary dark:text-primary-400 lg:justify-center">
             <img
@@ -53,9 +53,7 @@ const Projects = () => {
             ></img>
           </div>
           <p class="text-neutral-500 dark:text-neutral-300 text-sm">
-            A simple informative website that helps your customers acquainte
-            themselves with your business or product. With an About Us and
-            Services section, customers easily find out more about you.
+            A webapp that allows users to post job adverts and also to find jobs as applicants.
           </p>
         </div>
 
