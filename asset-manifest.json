@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/Portfolio-2Page/static/css/main.64af1cfd.css",
-    "main.js": "/Portfolio-2Page/static/js/main.c4388724.js",
+    "main.css": "/Portfolio-2Page/static/css/main.f8f51b63.css",
+    "main.js": "/Portfolio-2Page/static/js/main.dabcd7c1.js",
     "static/js/787.e36e9013.chunk.js": "/Portfolio-2Page/static/js/787.e36e9013.chunk.js",
     "static/media/woodberg.png": "/Portfolio-2Page/static/media/woodberg.5747e3d624a79e92f654.png",
     "static/media/trispectra.png": "/Portfolio-2Page/static/media/trispectra.297909a79bbe57c9502a.png",
+    "static/media/Screenshot (1).png": "/Portfolio-2Page/static/media/Screenshot (1).928e4e7ade4bbd7c0088.png",
     "static/media/vov.png": "/Portfolio-2Page/static/media/vov.5f79f1de079b9f92fa69.png",
     "static/media/project-placeholder.png": "/Portfolio-2Page/static/media/project-placeholder.b014158f9b26c5b5b0e9.png",
+    "static/media/Screenshot 2023-09-29 105845.png": "/Portfolio-2Page/static/media/Screenshot 2023-09-29 105845.b41076f4260ce5b5dc98.png",
+    "static/media/Screenshot (32).png": "/Portfolio-2Page/static/media/Screenshot (32).e6a0c1633804b9c4e8fc.png",
     "static/media/developerimage.png": "/Portfolio-2Page/static/media/developerimage.9e59e829f5cca21e3a2d.png",
+    "static/media/vecteezy_programmer-people-concept-use-laptop-and-programming-code_.jpg": "/Portfolio-2Page/static/media/vecteezy_programmer-people-concept-use-laptop-and-programming-code_.7829398d526ad5365bdd.jpg",
+    "static/media/github.png": "/Portfolio-2Page/static/media/github.3986628756e6ca4c7040.png",
+    "static/media/jwt.png": "/Portfolio-2Page/static/media/jwt.b3c99311c61bae29ef4a.png",
+    "static/media/sql.png": "/Portfolio-2Page/static/media/sql.7f7045d239b1d173a582.png",
     "static/media/nodejs.png": "/Portfolio-2Page/static/media/nodejs.007e99f68b718e476aba.png",
     "static/media/bootstrap.png": "/Portfolio-2Page/static/media/bootstrap.268c4375260420e8d982.png",
     "index.html": "/Portfolio-2Page/index.html",
-    "main.64af1cfd.css.map": "/Portfolio-2Page/static/css/main.64af1cfd.css.map",
-    "main.c4388724.js.map": "/Portfolio-2Page/static/js/main.c4388724.js.map",
+    "main.f8f51b63.css.map": "/Portfolio-2Page/static/css/main.f8f51b63.css.map",
+    "main.dabcd7c1.js.map": "/Portfolio-2Page/static/js/main.dabcd7c1.js.map",
     "787.e36e9013.chunk.js.map": "/Portfolio-2Page/static/js/787.e36e9013.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64af1cfd.css",
-    "static/js/main.c4388724.js"
+    "static/css/main.f8f51b63.css",
+    "static/js/main.dabcd7c1.js"
   ]
 }
