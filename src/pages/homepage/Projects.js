@@ -9,7 +9,7 @@ const Projects = () => {
         My Projects
       </h2>
 
-      <div className="grid gap-x-6 lg:grid-cols-3 justify-center">
+      <div className="grid gap-x-6 lg:grid-cols-2 justify-center">
         {/* TriSpectra */}
         <div className="mb-12 lg:mb-0 projectImg">
           <div
@@ -41,6 +41,81 @@ const Projects = () => {
             Responsive site for a software company offering custom dev & consultancy services. Built with React, Bootstrap, and Node.js.
           </p>
         </div>
+        <div className="mb-12 lg:mb-0 projectImg">
+          <div
+            className="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%]"
+            data-te-ripple-init
+            data-te-ripple-color="light"
+          >
+            <img src={require("./img/tembezi.png")} className="w-full" />
+            <a
+              href="https:///tembezi.co.ke"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out bg-[hsla(0,0%,98.4%,0.2)]" />
+            </a>
+          </div>
+
+          <h5 className="mb-4 text-lg font-bold text-white text-2xl">
+            Tembezi
+          </h5>
+
+          <div className="mb-4 flex items-center justify-center gap-4">
+            <img src={require("./img/react.png")} alt="React" style={{ width: "2.5rem" }} />
+            <img src={require("./img/tailwind.png")} alt="Bootstrap" style={{ width: "2.5rem" }} />
+            <img src={require("./img/nodejs.png")} alt="Node.js" style={{ width: "2.5rem" }} />
+            <img src={require("./img/redis.png")} alt="Node.js" style={{ width: "2.5rem" }} />
+            <img src={require("./img/sql.png")} alt="Node.js" style={{ width: "2.5rem" }} />
+          
+          
+          </div>
+
+          <p className="text-neutral-500 dark:text-neutral-300 text-sm">
+         My personal E-Commerce platform for selling travel packages from different merchants.
+          </p>
+        </div>
+      </div>
+      <div className="grid gap-x-6 lg:grid-cols-2 justify-center">
+        {/* TriSpectra */}
+       
+        <div className="mb-12 lg:mb-0 projectImg">
+          <div
+            className="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%]"
+            data-te-ripple-init
+            data-te-ripple-color="light"
+          >
+            <img src={require("./img/help_on_wheels.png")} className="w-full" />
+            <a
+              href="https://help-on-wheels.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out bg-[hsla(0,0%,98.4%,0.2)]" />
+            </a>
+          </div>
+
+          <h5 className="mb-4 text-lg font-bold text-white text-2xl">
+            Help On Wheels
+          </h5>
+
+          <div className="mb-4 flex items-center justify-center gap-4">
+            <img src={require("./img/react.png")} alt="React" style={{ width: "2.5rem" }} />
+            <img src={require("./img/tailwind.png")} alt="Bootstrap" style={{ width: "2.5rem" }} />
+            <img src={require("./img/nodejs.png")} alt="Node.js" style={{ width: "2.5rem" }} />
+            <img src={require("./img/sql.png")} alt="Node.js" style={{ width: "2.5rem" }} />
+          
+          
+          </div>
+
+          <p className="text-neutral-500 dark:text-neutral-300 text-sm">
+          Responsive site for a car towing company offering differtent roadside management services. Built with React, Tailwind, and Node.js.
+            </p>
+        </div>
+      </div>
+      <div className="grid gap-x-6 lg:grid-cols-3 justify-center">
+        {/* tembezi*/}
+      
       </div>
 
       {/* Skills Section */}
