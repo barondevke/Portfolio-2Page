@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-2Page/static/css/main.f8f51b63.css",
-    "main.js": "/Portfolio-2Page/static/js/main.b0d1a6d3.js",
+    "main.js": "/Portfolio-2Page/static/js/main.beab6d33.js",
     "static/js/787.e36e9013.chunk.js": "/Portfolio-2Page/static/js/787.e36e9013.chunk.js",
     "static/media/woodberg.png": "/Portfolio-2Page/static/media/woodberg.5747e3d624a79e92f654.png",
     "static/media/trispectra.png": "/Portfolio-2Page/static/media/trispectra.297909a79bbe57c9502a.png",
@@ -11,6 +11,7 @@
     "static/media/project-placeholder.png": "/Portfolio-2Page/static/media/project-placeholder.b014158f9b26c5b5b0e9.png",
     "static/media/Screenshot 2023-09-29 105845.png": "/Portfolio-2Page/static/media/Screenshot 2023-09-29 105845.b41076f4260ce5b5dc98.png",
     "static/media/Screenshot (32).png": "/Portfolio-2Page/static/media/Screenshot (32).e6a0c1633804b9c4e8fc.png",
+    "static/media/help_on_wheels.png": "/Portfolio-2Page/static/media/help_on_wheels.516a5f738d6ad032dcf2.png",
     "static/media/developerimage.png": "/Portfolio-2Page/static/media/developerimage.9e59e829f5cca21e3a2d.png",
     "static/media/vecteezy_programmer-people-concept-use-laptop-and-programming-code_.jpg": "/Portfolio-2Page/static/media/vecteezy_programmer-people-concept-use-laptop-and-programming-code_.7829398d526ad5365bdd.jpg",
     "static/media/github.png": "/Portfolio-2Page/static/media/github.3986628756e6ca4c7040.png",
@@ -21,11 +22,11 @@
     "index.html": "/Portfolio-2Page/index.html",
     "static/media/linkedin.svg": "/Portfolio-2Page/static/media/linkedin.4a7589810133a3bd2f21.svg",
     "main.f8f51b63.css.map": "/Portfolio-2Page/static/css/main.f8f51b63.css.map",
-    "main.b0d1a6d3.js.map": "/Portfolio-2Page/static/js/main.b0d1a6d3.js.map",
+    "main.beab6d33.js.map": "/Portfolio-2Page/static/js/main.beab6d33.js.map",
     "787.e36e9013.chunk.js.map": "/Portfolio-2Page/static/js/787.e36e9013.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8f51b63.css",
-    "static/js/main.b0d1a6d3.js"
+    "static/js/main.beab6d33.js"
   ]
 }
