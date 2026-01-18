@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio-2Page/static/css/main.f8f51b63.css",
-    "main.js": "/Portfolio-2Page/static/js/main.beab6d33.js",
-    "static/js/787.e36e9013.chunk.js": "/Portfolio-2Page/static/js/787.e36e9013.chunk.js",
+    "main.css": "/Portfolio-2Page/static/css/main.a6420ffb.css",
+    "main.js": "/Portfolio-2Page/static/js/main.aa40ff30.js",
+    "static/js/787.0fa1e9da.chunk.js": "/Portfolio-2Page/static/js/787.0fa1e9da.chunk.js",
     "static/media/woodberg.png": "/Portfolio-2Page/static/media/woodberg.5747e3d624a79e92f654.png",
     "static/media/trispectra.png": "/Portfolio-2Page/static/media/trispectra.297909a79bbe57c9502a.png",
     "static/media/Screenshot (1).png": "/Portfolio-2Page/static/media/Screenshot (1).928e4e7ade4bbd7c0088.png",
@@ -21,12 +21,12 @@
     "static/media/bootstrap.png": "/Portfolio-2Page/static/media/bootstrap.268c4375260420e8d982.png",
     "index.html": "/Portfolio-2Page/index.html",
     "static/media/linkedin.svg": "/Portfolio-2Page/static/media/linkedin.4a7589810133a3bd2f21.svg",
-    "main.f8f51b63.css.map": "/Portfolio-2Page/static/css/main.f8f51b63.css.map",
-    "main.beab6d33.js.map": "/Portfolio-2Page/static/js/main.beab6d33.js.map",
-    "787.e36e9013.chunk.js.map": "/Portfolio-2Page/static/js/787.e36e9013.chunk.js.map"
+    "main.a6420ffb.css.map": "/Portfolio-2Page/static/css/main.a6420ffb.css.map",
+    "main.aa40ff30.js.map": "/Portfolio-2Page/static/js/main.aa40ff30.js.map",
+    "787.0fa1e9da.chunk.js.map": "/Portfolio-2Page/static/js/787.0fa1e9da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8f51b63.css",
-    "static/js/main.beab6d33.js"
+    "static/css/main.a6420ffb.css",
+    "static/js/main.aa40ff30.js"
   ]
 }
