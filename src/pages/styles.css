@@ -10,29 +10,106 @@ body, html {
   }
   .background-picture {
     margin-top: 0px;
-    height: 100vh;
+    min-height: 100vh;
     width: auto;
     background-color:black;
-    
+    padding: 4rem 6vw;
 }
 
-.px-4{    
-    font-size: 3.5rem;
-    margin-left: 10%;
-    
-
+.hero-row {
+    align-items: center;
+    min-height: 82vh;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .hellotxt{
-    margin-top: 10%;
-    padding: 100px 0px;
-    
-    
+    padding: 2rem 0;
+}
+
+.hero-intro {
+  color: #9ca3af;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  color: white;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  color: #d1d5db;
+  font-size: 1.05rem;
+  max-width: 680px;
+  margin-bottom: 2rem;
+}
+
+.hero-cta {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  padding: 0.75rem 1.1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.hero-photo-wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.hero-photo {
+  width: min(100%, 360px);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 1px solid #374151;
+  box-shadow:0 0 0 3px #333;
+  filter: brightness(0.98) saturate(0.9);
+}
+
+.hero-photo-wrap::after {
+  content: "";
+  position: absolute;
+  width: min(100%, 360px);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+}
+
+.aboutSection {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 1rem;
+  text-align: left;
+}
+
+.aboutTitle {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+}
+
+.aboutText {
+  color: #d1d5db;
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 0.9rem;
 }
 
 .helloimage{
     height: 500px;
     margin-top: 5%;
-    background-image: url('./homepage/img/developerimage.png');
+    background-image: url('./homepage/img/developerimage.jpeg');
    background-size: contain;
     
 }
@@ -86,17 +163,50 @@ body, html {
  }
 
  .contactPage{
-   background-color:  black ;
-   margin-top: 20%;
-   
-
+   background-color: black;
+   margin-top: 4rem;
+   padding: 4rem 1rem;
  }
- .hireMe{
-   text-align: center;
- }
- .messageBox{
+  .hireMe{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+  }
+  .contactIntro {
+    text-align: center;
+    color: #9ca3af;
+    margin: 0.8rem auto 2rem;
+    max-width: 560px;
+  }
+  .contactCard {
+    border: 1px solid #1f2937;
+    border-radius: 12px;
+    padding: 1.2rem 1.2rem 0.8rem;
+    background: #0b0b0b;
+  }
+  .contactItem {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.85rem;
+    color: white;
+  }
+  .contactIcon {
+    color: #fff;
+    width: 20px;
+  }
+  .contactLink {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .contactLink:hover {
+    text-decoration: underline;
+    color: white;
+  }
+  .messageBox{
    height:100px;
- }
+  }
 
  .footer{
    padding:  10px;

@@ -10,13 +10,12 @@ const ProjectCard = ({
   link,
   tech,
   description,
-  offline = false,
 }) => (
   <div className="projectImg mb-12">
     <div className="relative mb-6 overflow-hidden rounded-lg shadow-lg">
       <img src={require(`./img/${image}`)} className="w-full" alt={title} />
 
-      {!offline && link && (
+      {link && (
         <a href={link} target="_blank" rel="noreferrer">
           <div className="mask absolute inset-0 opacity-0 hover:opacity-100 transition duration-300 bg-[hsla(0,0%,98.4%,0.2)]" />
         </a>
@@ -49,14 +48,17 @@ const ProjectCard = ({
 ========================= */
 const TechStack = () => {
   const skills = [
-    { name: "React.js", img: "react.png" },
-    { name: "Node.js", img: "nodejs.png" },
-    { name: "SQL", img: "sql.png" },
-    { name: "Redis", img: "redis.png" },
-    { name: "Docker", img: "docker.png" },
-    { name: "JWT Auth", img: "jwt.png" },
-    { name: "Bootstrap", img: "bootstrap.png" },
-    { name: "Git & GitHub", img: "github.png" },
+    { name: "React.js", img: "react.png", external: false },
+    { name: "Node.js", img: "nodejs.png", external: false },
+    { name: "Next.js", img: "https://cdn.simpleicons.org/nextdotjs/FFFFFF", external: true },
+    { name: "TypeScript", img: "https://cdn.simpleicons.org/typescript/3178C6", external: true },
+    { name: "PostgreSQL", img: "https://cdn.simpleicons.org/postgresql/4169E1", external: true },
+    { name: "SQL", img: "sql.png", external: false },
+    { name: "Redis", img: "redis.png", external: false },
+    { name: "Docker", img: "docker.png", external: false },
+    { name: "JWT Auth", img: "jwt.png", external: false },
+    { name: "Bootstrap", img: "bootstrap.png", external: false },
+    { name: "Git & GitHub", img: "github.png", external: false },
   ];
 
   return (
@@ -72,7 +74,9 @@ const TechStack = () => {
             className="flex items-center justify-center bg-slate-800 px-4 py-2 rounded-full"
           >
             <img
-              src={require(`./img/${skill.img}`)}
+              src={
+                skill.external ? skill.img : require(`./img/${skill.img}`)
+              }
               alt={skill.name}
               title={skill.name}
               style={{
@@ -93,10 +97,25 @@ const TechStack = () => {
 ========================= */
 const Projects = () => {
   return (
-    <section className="mb-32 mx-16 text-center lg:text-left Projects">
+    <section
+      id="projects-section"
+      className="mb-32 mx-16 text-center lg:text-left Projects"
+    >
       <h2 className="mb-16 pt-20 text-center text-2xl font-bold text-white">
         My Projects
       </h2>
+      <p className="text-center text-neutral-300 mb-12">
+        More projects and code samples on{" "}
+        <a
+          href="https://github.com/barondevke"
+          target="_blank"
+          rel="noreferrer"
+          className="text-white underline"
+        >
+          GitHub
+        </a>
+        .
+      </p>
 
       {/* ===== Live Projects ===== */}
       <div className="grid gap-x-8 gap-y-16 lg:grid-cols-2 justify-center">
@@ -119,45 +138,6 @@ const Projects = () => {
 
       {/* ===== Tech Stack ===== */}
       <TechStack />
-
-      {/* ===== Offline Projects ===== */}
-      <div className="mt-24">
-        <h3 className="text-2xl font-bold mb-10 text-white text-center">
-          Other Projects (Currently Offline)
-        </h3>
-
-        <div className="grid gap-x-8 gap-y-16 lg:grid-cols-3 justify-center">
-          <ProjectCard
-            title="Tembezi"
-            image="tembezi.png"
-            offline
-            tech={[
-              "react.png",
-              "tailwind.png",
-              "nodejs.png",
-              "redis.png",
-              "sql.png",
-            ]}
-            description="Personal e-commerce platform for selling travel packages from multiple merchants."
-          />
-
-          <ProjectCard
-            title="Voice of the Voiceless"
-            image="vov.png"
-            offline
-            tech={["react.png", "bootstrap.png", "nodejs.png"]}
-            description="Job board for human rights initiatives with role-based access and email notifications."
-          />
-
-          <ProjectCard
-            title="Woodberg Furniture"
-            image="woodberg.png"
-            offline
-            tech={["react.png", "bootstrap.png", "nodejs.png"]}
-            description="Furniture store with dynamic catalog, inventory CMS, and Stripe payments."
-          />
-        </div>
-      </div>
     </section>
   );
 };

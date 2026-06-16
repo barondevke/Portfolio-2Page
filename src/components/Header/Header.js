@@ -1,9 +1,15 @@
 import React from "react";
-import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import "../../pages/styles.css";
-import { Link, animateScroll as scroll } from "react-scroll";
-import { scroller } from "react-scroll";
+
 const Header = () => {
+  const scrollToSection = (id) => {
+    const target = document.getElementById(id);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <div>
       <header>
@@ -14,37 +20,25 @@ const Header = () => {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link
-                  onClick={() =>
-                    scroller.scrollTo("background-picture", {
-                      smooth: true,
-                      offset: -70,
-                      duration: 500,
-                    })
-                  }
+                  onClick={() => scrollToSection("home-section")}
                 >
                   Home
                 </Nav.Link>
 
                 <Nav.Link
-                  onClick={() =>
-                    scroller.scrollTo("Projects", {
-                      smooth: true,
-                      offset: -20,
-                      duration: 100,
-                    })
-                  }
+                  onClick={() => scrollToSection("about-section")}
+                >
+                  About
+                </Nav.Link>
+
+                <Nav.Link
+                  onClick={() => scrollToSection("projects-section")}
                 >
                   Projects
                 </Nav.Link>
 
                 <Nav.Link
-                  onClick={() =>
-                    scroller.scrollTo("contactPage", {
-                      smooth: true,
-                      offset: -30,
-                      duration: 100,
-                    })
-                  }
+                  onClick={() => scrollToSection("contactPage")}
                 >
                   Contact Me
                 </Nav.Link>
