@@ -134,6 +134,14 @@ const Projects = () => {
           tech={["react.png", "tailwind.png", "nodejs.png", "sql.png"]}
           description="Car towing and roadside assistance platform built with React, Tailwind, and Node.js."
         />
+
+        <ProjectCard
+          title="Tembezi"
+          image="tembezi.png"
+          link="https://tembea-murex.vercel.app/"
+          tech={["react.png", "tailwind.png", "nodejs.png"]}
+          description="Modern web app showcasing a clean, responsive experience with fast navigation and polished UI."
+        />
       </div>
 
       {/* ===== Tech Stack ===== */}
